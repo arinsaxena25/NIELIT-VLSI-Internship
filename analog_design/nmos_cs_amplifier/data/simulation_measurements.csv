@@ -1,0 +1,35 @@
+quantity,value,unit,context,source
+VDD,1.8,V,supply voltage,supplied
+Iref,10,uA,reference current,supplied
+NM0_W_over_L,1u/500n,um/nm,input transistor,supplied
+PM0_PM1_W_over_L,8u/500n,um/nm,mirror transistors,supplied
+Vbias_dc,635.5,mV,final gate bias,supplied
+Vbias_interpolated,632.5135,mV,VTC point where Vout=900 mV,cursor readout
+Vout_at_632.5135mV,1137.355,mV,DC operating point,supplied
+Vout_q,945.652,mV,DC operating point at Vbias=635.5 mV,supplied
+NM0_Vth,489.918,mV,NMOS operating point,simulation
+NM0_Vgs,635.358,mV,NMOS operating point,simulation
+NM0_gm,102.04,uS,NMOS operating point,simulation
+NM0_gds,943.526,nS,NMOS operating point,simulation
+PM0_Vth,-454.968,mV,PMOS operating point,simulation
+PM0_Vgs,-880.216,mV,PMOS operating point,simulation
+PM0_gm,41.2221,uS,PMOS operating point,simulation
+PM0_gds,685.659,nS,PMOS operating point,simulation
+DC_gain,36.1566,dB,AC analysis,ADE scalar output
+BW_3dB,253.817,kHz,AC analysis,ADE scalar output
+GBW,16.3595,MHz,AC analysis,ADE scalar output
+Phase_margin,89.1172,deg,AC analysis,ADE scalar output
+Pole1,254.32,kHz,pole-zero analysis,supplied
+Pole2,273.53,MHz,pole-zero analysis,supplied
+Zero1_LHP,272.78,MHz,pole-zero analysis,supplied
+Zero2_RHP,45.37,GHz,pole-zero analysis,supplied
+Vin_pp,9.99748,mV,transient 1 kHz,ADE scalar output
+Vout_pp,624.899,mV,transient 1 kHz,ADE scalar output
+Tran_gain,62.5057,V/V,Vout_pp/Vin_pp,ADE scalar output
+Tran_gain_dB,35.9184,dB,transient,ADE scalar output
+Noise_out_total,1.97925e-4,V^2,integrated 1 Hz to 16.36 MHz,simulator noise summary
+Noise_out_rms,14.07,mV,sqrt of total output noise,calculated
+Noise_in_total,9.10798e-8,V^2,integrated 1 Hz to 16.36 MHz,simulator noise summary
+Noise_in_rms,301.80,uV,sqrt of total input noise,calculated
+SNR,21.38,dB,10 mVpp input (3.536 mV rms),calculated
+NM0_flicker_share,98.99,percent,of total output noise,simulator noise summary

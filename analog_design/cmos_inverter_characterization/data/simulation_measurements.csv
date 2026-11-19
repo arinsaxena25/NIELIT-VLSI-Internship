@@ -1,0 +1,25 @@
+quantity,value,unit,context,source
+VDD,1.8,V,supply voltage,supplied / testbench
+Wn,2,um,NMOS width (all experiments),supplied
+Wp_initial,2,um,initial PMOS width,supplied
+Wp_selected,7.44384,um,width giving Vout=0.9 V at Vin=0.9 V,supplied; cursor readout
+Wp_delay_balanced,5.66886,um,width where Tplh-Tphl crosses 0 (experimental),supplied; cursor readout
+VM_initial,0.7469798,V,Vin at Vout=0.9 V; Wp=2 um,cursor readout
+Vout_at_Vin_0.9V_initial,0.0563397,V,Wp=2 um,cursor readout
+VM_selected,0.9,V,Wp=7.44384 um,cursor readout
+tPHL,30.6286,ps,Wp=7.44384 um,supplied; cursor readout
+tPLH,24.24555,ps,Wp=7.44384 um,supplied
+Tplh_minus_Tphl,-6.38313,ps,Wp=7.44384 um (plot label; rounded),cursor readout
+tr_10_90,37.1943,ps,Wp=7.44384 um; 10%-90% criterion,supplied (ADE calculator)
+tf_90_10,31.1168,ps,Wp=7.44384 um; 90%-10% criterion,supplied (ADE calculator)
+delta_tp,6.38305,ps,|tPHL-tPLH| from supplied values,calculated
+tp_avg,27.437075,ps,(tPHL+tPLH)/2 from supplied values,calculated
+IDD_Vin0,16.9432,pA,DC simulation Vin=0,cursor readout
+IDD_Vin1.8,7.14698,pA,DC simulation Vin=1.8 V,cursor readout
+Pstatic,21.681162,pW,VDD*average of the two currents,calculated
+Iavg_transient,1.7571,uA,average transient current,simulator scalar output
+Pdynamic,3.16278,uW,VDD*Iavg_transient,calculated
+VIL,0.7794602,V,dVout/dVin=-1; Wp=7.44384 um,cursor readout
+VIH,1.035603,V,dVout/dVin=-1; Wp=7.44384 um,cursor readout
+NM_L_rail,0.7794602,V,VIL-VOL with VOL~0 (plot reading),calculated
+NM_H_rail,0.764397,V,VOH-VIH with VOH~1.8 (plot reading),calculated

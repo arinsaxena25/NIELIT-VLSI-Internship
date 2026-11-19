@@ -1,0 +1,7 @@
+module and_gate_structural (
+    input  wire a,
+    input  wire b,
+    output wire y
+);
+    and g1 (y, a, b);
+endmodule

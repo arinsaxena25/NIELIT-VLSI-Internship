@@ -1,0 +1,12 @@
+quantity,value,unit,context,source
+W_over_L,10/1,um/um,both transistors,supplied
+Iref,100,uA,reference current,supplied
+VDD,1.8,V,supply voltage,supplied / testbench
+Vgate,724.756,mV,gate of NM1 and NM0 (DC operating point),schematic annotation
+Iout_Vds_300mV,95.70051,uA,NM0 drain at 300 mV,cursor readout
+Iout_Vds_724.756mV,99.99966,uA,NM0 drain at 724.756 mV,cursor readout
+Iout_Vds_900mV,100.6384,uA,NM0 drain at 900 mV,cursor readout
+rout,301.753,kOhm,low frequency at Vds=0.9 V,cursor readout
+region_triode_up_to,0.2,V,region value 1,plot reading
+region_saturation_from,0.3,V,region value 2,plot reading
+lambda,0.03293,1/V,1/(rout*Iout at 0.9 V),calculated

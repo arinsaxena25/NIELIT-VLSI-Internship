@@ -1,0 +1,11 @@
+quantity,value,unit,context,source
+VGS,0.9,V,bias point,supplied
+VDS,0.9,V,bias point,supplied
+VBS,0,V,bias point (body-effect sweep -1 V to 1 V),supplied
+Id,247.222,uA,bias point,supplied / cursor
+gm_graphical,906.95,uS,dId/dVGS at bias point,cursor readout
+gm_operating_point,918.161,uS,DC operating-point printout,supplied
+ro_graphical,25.7815,kOhm,at VDS=0.9 V,cursor readout
+ro_operating_point,26.1685,kOhm,DC operating-point printout,supplied
+gmb_graphical,271.5,uS,dId/dVBS at VBS=0,cursor readout
+gmb_operating_point,276.672,uS,DC operating-point printout,supplied
